@@ -9,23 +9,3 @@ resolver = "2"
 [patch.crates-io]
 soroban-env-host = { git = "https://github.com/stellar/soroban-env", branch = "main", version = "=22.1.2" }
 
-
-[workspace.dependencies]
-soroban-sdk = "22.0.1"
-ed25519-dalek = "2.1.1"
-k256 = "0.13.1"
-
-[dependencies]
-soroban-sdk = "0.9.0"  # o la versión más reciente estable
-soroban-env-host = "0.1.0"  # usa la versión estable más reciente de crates.io
-
-
-
-
-
-
-
-
-
-
-
