@@ -1,0 +1,8 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Dependencia del SDK de Soroban
+soroban-sdk = { git = "https://github.com/stellar/soroban-sdk", branch = "main" }
